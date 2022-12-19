@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title{
+    font-size: 18px;
+}
+
+.text{
+    line-height: 24px; 
+    /* 1.1 80% normal */
+}
+
+.second-title{
+    letter-spacing: 2px;
+    /* -2px */
+}
+
+.word-spacing{
+    word-spacing: 20px;  
+}
+
+.text-align{
+    background-color: aqua;
+    /* justify */
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-shadow{
+    text-shadow: 2px 2px #FF0000;
+}
+
+.example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #ff0;
+  }
+  
+.example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #00f;
+    margin-bottom: 40px;
+}
+
+.text-decoration {
+    background: greenyellow;
+}
+.none {
+    text-decoration: none;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-weight {
+    background-color: #ff0;
+}
+.four {
+    font-weight: 400;
+}
+.five {
+    font-weight: 500;
+}
+.six {
+    font-weight: 600;
+}
+.seven {
+    font-weight: 700;
+}
+.nine {
+    font-weight: 900;
+}
+
+.user-select {
+    background-color: aquamarine;
+}
+.all {
+    user-select: all;
+}
+.auto {
+    user-select: auto;
+}
+.none {
+    user-select: none;
+}
