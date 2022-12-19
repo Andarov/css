@@ -1,0 +1,38 @@
+p{
+    color: gold;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+
+#id{
+    background-color: violet;
+}
+
+span{
+    background-color: aqua!important;
+}
+
+.class{
+    background-color: burlywood;
+}
+
+a{
+    color: #000;
+}
+
+.active{
+    color: rgb(125, 250, 0);
+}
+
+.rgba{
+    background-color: rgba(126, 100, 30, 0.6);
+}
+
+
+
