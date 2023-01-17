@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Height */
+.height {
+    font-size: 36px;
+    height: 200px;
+    background-color: blueviolet;
+    color: gold;
+}
+
+/* Width */
+.width {
+    font-size: 36px;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: gold;
+}
+
+/* Min-height vs min-width */
+textarea{
+    min-height: 300px;
+    min-width: 400px;
+}
+
+/* Max-height */
+.max-height {
+    max-height: 200px;
+    width: 500px;
+    overflow: auto;
+    background-color: red;
+}
+
+/* Font family */
+.ff {
+    font-size: 36px;
+}
+.serif {
+    font-family: serif;
+}
+.sans-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+.livvic {
+    font-family: 'Livvic', sans-serif;
+}
