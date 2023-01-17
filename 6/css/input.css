@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* List style */
+.square {
+    list-style: square;
+}
+.circle {
+    list-style: circle;
+}
+.roman{
+    list-style: upper-roman;
+}
+.none {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Flex */
+.parent {
+    display: flex;
+    width: 900px;
+    background-color: pink;
+}
+.child {
+    width: 200px;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+/* Justify-content */
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+
+/* Align-items */
+.child-2 {
+    height: 100px;
+}
+.ai-c {
+    align-items: center;
+}
+.ai-fs {
+    align-items: flex-start;
+}
+.ai-fe {
+    align-items: flex-end;
+}
+
+/* Wrap */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Flex-direction */
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column {
+    flex-direction: column;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
