@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    /* display: inline-block; */
+    padding: 10px 30px;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+
+/* Button */
+.btn {
+    padding: 10px 30px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Hover, active, visited */
+.hover:hover {
+    background-color: blue;
+}
+.active:active {
+    opacity: 0.6;
+}
+.visited {
+    color: gray;
+}
+
+/* Display hususiyati */
+.text {
+    background-color: aqua;
+    padding: 50px;
+}
+.none {
+    display: none;
+}
+.visible {
+    height: 100px;
+    visibility: hidden;
+}
+
+/* Cursor */
+.cursor {
+    cursor: col-resize;
+    cursor: copy;
+    cursor: crosshair;
+    cursor: grab;
+    cursor: help;
+    cursor: move;
+    cursor: not-allowed;
+    cursor: pointer;
+    cursor: zoom-in;
+    cursor: zoom-out;
+}
+
+/* Scroll */
+.scroll {
+    margin-top: 50px;
+}
