@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Kaskadlanish */
+.text {
+    color: aqua;
+}
+#text {
+    color: red;
+}
+p{
+    color: gold;
+}
+
+/* Inheritance */
+.ota {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+/* Padding */
+.p {
+    background: gold;
+    border: 3px solid black;
+}
+.p-one {
+    padding: 40px;
+}
+.p-two{
+    padding: 40px 60px;
+}
+.p-three {
+    padding: 40px 80px 40px;
+}
+.p-four{
+    padding: 20px 30px 40px 50px;
+}
+
+/* Margin */
+.m{
+    padding: 50px;
+    background-color: red;
+}
+.m-one {
+    margin-bottom: 30px;
+}
+
+/* Border */
+.border {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: blue;
+    border: 8px solid blue;
+}
+
+/* Box-sizing: border-box */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    background-color: pink;
+}
+.child{
+    width: 300px;
+    background-color: aqua;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+
+
+
+
