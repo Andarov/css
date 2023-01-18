@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex davomi: order, shrink, grow, not last child</title>
+
+    <link rel="stylesheet" href="./css/input.css">
+</head>
+<body>
+
+    <!-- Order -->
+    <div class="parent">
+        <div class="item">order-1</div>
+        <div class="item order-2">order-2</div>
+        <div class="item order-3">order-3</div>
+        <div class="item order-4">order-4</div>
+    </div>
+
+    <!-- shrink -->
+    <div class="parent shrink-parent">
+        <div class="item">shrink-1</div>
+        <div class="item shrink-2">shrink-2</div>
+        <div class="item shrink-3">shrink-3</div>
+        <div class="item shrink-4">shrink-4</div>
+    </div>
+
+    <!-- Grow -->
+    <div class="parent">
+        <div class="item">grow-1</div>
+        <div class="item grow-2">grow-2</div>
+        <div class="item grow-3">grow-3</div>
+        <div class="item grow-4">grow-4</div>
+    </div>
+
+    <!-- Not-last-child -->
+    <div class="parent childs">
+        <div class="child">Child-1</div>
+        <div class="child">Child-2</div>
+        <div class="child">Child-3</div>
+        <div class="child">Child-4</div>
+        <div class="child">Child-5</div>
+        <div class="child">Child-6</div>
+    </div>
+
+</body>
+</html>

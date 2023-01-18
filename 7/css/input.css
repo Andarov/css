@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Order */
+.parent {
+    display: flex;
+    background-color: aqua;
+}
+.item {
+    width: 250px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    border: 5px solid black;
+}
+.order-2 {
+    order: -1;
+    background-color: gold;
+    color: black;
+}
+.order-3 {
+    order: -1;
+    background-color: green;
+    color: black;
+}
+.order-4 {
+    order: -2;
+}
+
+/* Shrink */
+.shrink-parent{
+    width: 700px;
+}
+.shrink-2 {
+    flex-shrink: 0;
+    background-color: red;
+    color: black;
+}
+.shrink-3 {
+    flex-shrink: 1;
+    background-color: green;
+    color: black;
+}
+.shrink-4 {
+    flex-shrink: 2;
+}
+
+/* Grow */
+.grow-2 {
+    flex-grow: 2;
+    background-color: gold;
+    color: black;
+}
+.grow-3 {
+    flex-grow: 3;
+    background-color: green;
+    color: black;
+}
+.grow-4 {
+    flex-grow: 4;
+}
+
+/* Not-last-child */
+.childs{
+    width: 1000px;
+}
+.child{
+    width: 150px;
+    background-color: gold;
+    border: 5px solid black;
+    padding: 30px;
+    font-size: 24px;
+}
+.child:not(:last-child){
+    margin-right: 20px;
+}
