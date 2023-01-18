@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Recent works */
+.recent-container {
+    padding: 40px 0;
+}
+
+.recent-title {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 73px;
+    letter-spacing: 0.2px;
+    margin-bottom: 44px;
+}
+
+.recent {
+    font-family: 'Inter', sans-serif;
+}
+
+.work {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Boxes */
+.product {
+    max-width: 520px;
+    margin-bottom: 64px;
+}
+
+.product-image {
+    margin-bottom: 21px;
+}
+
+.product-hr {
+    margin-bottom: 9px;
+    background-color: gray;
+}
+
+.product-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+}
+
+.product-type {
+    font-family: 'Libre Baskerville, serif';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #6D6B67;
+}
+
+.recent-btn {
+    height: 45px;
+    width: 166px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+
+/* Clients */
+.clients {
+    padding: 60px 0;
+    background-color: #F7F6F3;
+}
+
+.clients-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0.20px;
+    text-align: center;
+    margin-bottom: 35px;    
+}
+
+.client-t-one {
+    font-family: 'Inter', sans-serif;
+}
+
+.client-t-two {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.client-list-wrapper {
+    padding: 40px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.clients-list:not(:last-child){
+    margin-bottom: 60px;
+}
+
+/* Cta */
+.cta {
+    padding: 40px 0;
+    background-color: #E0F391;
+}
+
+.cta-hr {
+    background-color: gray;
+    margin-bottom: 24px;
+}
+
+.cta-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-box {
+    max-width: 576px;
+    margin-bottom: 70px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 64px;
+}
+
+.footer-box-text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.4px;
+    margin-bottom: 40px;
+}
+
+.footer-hr {
+    background-color: gray;
+}
+
+.reserved-text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
