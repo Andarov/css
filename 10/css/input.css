@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    height: 370px;
+    width: auto;
+    background-image: url(../img/Mikes_Bike-Recommended-show-1.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+}
+
+.cover {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contain {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.fill {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.gradient {
+    height: 200px;
+    background-image: linear-gradient(to right, red, blue, green);
+}
+
+.bayroq {
+    margin-top: 40px;
+    height: 300px;
+    background-image: linear-gradient(
+    to bottom,
+    blue,
+    blue 30%,
+    red 30%,
+    red 35%,
+    white 35%,
+    white 65%,
+    red 65%,
+    red 70%,
+    green 70%
+    );
+}
+
+.svg {
+    color: black;
+    transition: color 0.5s ease;
+}
+
+.svg:hover {
+    color: red;
+}
