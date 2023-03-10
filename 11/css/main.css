@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.main-heading {
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.change {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 0;
+    border: 1px solid var(--text-color);
+}
+
+.change:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 3px #0E85F3;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.checkbox-text {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.checkbox:disabled ~ .checkbox-img,
+.checkbox:disabled ~ .checkbox-text {
+    opacity: 0.5;
+}
+
+.checkbox:disabled ~ .checkbox-img {
+    background-color: #808080;
+}
+
+.checkbox:focus ~ .checkbox-img {
+    box-shadow: 0px 0px 3px 3px #0E85F3;
+}
+
+svg {
+    padding: 7px;
+}
