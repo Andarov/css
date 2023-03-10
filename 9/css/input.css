@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Focus vs outline */
+*:focus{
+    outline: 3px dashed gold;
+    outline-offset: 3px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pseudo-element{
+    margin-bottom: 20px;
+}
+
+.pseudo-element::before{
+    content: "Before";
+    background-color: yellow;
+    padding: 5px;
+}
+
+.pseudo-element::after{
+    content: "After";
+    background-color: yellow;
+    padding: 5px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.link::before{
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    content: "";
+    margin-right: 5px;
+    transition: width 0.5s ease;
+}
+
+.link:hover::before{
+    width: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.underline:not(:last-child){
+    margin-right: 30px;
+}
+
+.underline::after {
+    width: 30px;
+    height: 2px;
+    background-color: transparent;
+    content: "";
+    transition: width 0.5s ease;
+}
+
+.underline:hover::after {
+    background-color: chocolate;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blur {
+    filter: blur(5px)
+}
+.grayscale {
+    filter: grayscale(50%);
+}
+.brightness {
+    filter: brightness(0.4);
+}
+.contrast {
+    filter: contrast(200%);
+}
+.invert {
+    filter: invert(75%);
+}
+.sepia {
+    filter: sepia(60%);
+}
+.saturate {
+    filter: saturate(30%);
+}
+
+.box-sh {
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 30px;
+}
+
+.box-sh2 {
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
