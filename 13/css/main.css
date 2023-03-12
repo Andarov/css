@@ -1,11 +1,10 @@
 :root {
-    --text-color: ;
-    --font-family: ;
-    --body-bg-color: ;
+    --text-color: #333;
+    --font-family: 'Roboto', sans-serif;;
+    --body-bg-color: #fff;
+    --heading-color: #f0f;
+    --paragraph-color: #00f;
 }
-
-/* FONTS */
-
 
 html {
     height: 100%;
@@ -58,4 +57,11 @@ a {
 
 .main-content {
     flex-grow: 1;
+}
+
+h2 {
+    color: var(--heading-color);
+}
+p {
+    color: var(--paragraph-color);
 }
