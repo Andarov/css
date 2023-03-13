@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-auto {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-repeat {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.grid-repeat-fr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap {
+    row-gap: 30px;
+    column-gap: 30px;
+    gap: 30px;
+}
+
+.grid-item {
+    padding: 30px;
+    background-color: aqua;
+    border: 5px solid black;
+}
