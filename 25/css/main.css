@@ -1,0 +1,145 @@
+:root {
+    --text-color: #111517;
+    --bg-color: #fff;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: 3px dashed var(--text-color);
+    outline-offset: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--body-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+    border: 5px solid black;
+}
+
+@keyframes simple {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.simple {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: simple;
+    animation-duration: 4s;
+}
+
+.har-sec{
+    height: 400px;
+}
+
+.harakat {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: harakat;
+    animation-duration: 4s;
+}
+
+@keyframes harakat {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.alternate {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+}
+
+.alternate-new {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: qisqa 5s linear 2s infinite alternate;
+}
+
+@keyframes qisqa {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.clip-path {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.bosh {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(evenodd, 37.5% 36%, 62.5% 36%, 75% 11%, 85.71% 36%, 75% 86%, 62.5% 86%, 62.5% 60.07%, 75% 50.57%, 57.92% 50.57%, 62.5% 60.07%, 62.5% 86%, 37.5% 86%, 37.5% 60.07%, 25% 50.57%, 42.08% 50.57%, 37.5% 60.07%, 37.5% 86%, 25% 86%, 14.29% 36%, 25.9% 11%);
+    background-color: #47eb68
+}
