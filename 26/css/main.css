@@ -1,0 +1,100 @@
+:root {
+    --text-color: #111517;
+    --bg-color: #fff;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*:focus {
+    outline: 3px dashed var(--text-color);
+    outline-offset: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--body-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+    border: 5px solid black;
+}
+
+.ota {
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.foiz{
+    width: 50%;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.vw {
+    height: 200px;
+    width: 50vw;
+    border: 3px solid black;
+}
+
+.em {
+    font-size: 20px;
+}
+
+.box {
+    border: 2px solid black;
+}
+
+p{
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+.rem {
+    font-size: 20px;
+}
+
+.rem-text{
+    font-size: 2rem;
+}
